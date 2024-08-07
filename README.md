@@ -53,10 +53,16 @@ sh setup.sh
 python3 train.py experiments/models/wl_ilg_gpr.toml experiments/ipc23-learning/blocksworld.toml --save-file blocksworld_wl.model
 ```
 
-### Example for GNN models
+### Example for RGNN models (Goose_standard)
 ```
 python3 train.py experiments/models/gnn_mean_ilg.toml experiments/ipc23-learning/blocksworld.toml --save-file blocksworld_gnn.model
 ```
+
+### Example for RGAT models (Goose_gat)
+```
+python3 train.py experiments/models/rgat_max_ilg.toml experiments/ipc23-learning/blocksworld.toml --save-file blocksworld_rgat.model
+```
+
 
 ## Heuristic Search
 - see `run_wl.py` for WL models and `run_gnn.py` for GNN models

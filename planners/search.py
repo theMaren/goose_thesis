@@ -89,6 +89,7 @@ def fd_gnn(args, aux_file, plan_file):
     df = os.path.abspath(args.domain_pddl)
     pf = os.path.abspath(args.problem_pddl)
     algorithm = args.algorithm
+    time_limit = args.overall_time_limit
 
     h_goose = f'goose(model_path="{mf}", domain_file="{df}", instance_file="{pf}")'
 
@@ -98,6 +99,6 @@ def fd_gnn(args, aux_file, plan_file):
     else:
         raise ValueError(f"Unknown algorithm: {algorithm}")
 
-    cmd = f"{_DOWNWARD_GPU} --sas-file {aux_file} --plan-file {plan_file} {df} {pf} --search '{fd_search}'"
+    cmd = f"{_DOWNWARD_GPU} --overall-time-limit {time_limit} --sas-file {aux_file} --plan-file {plan_file} {df} {pf} --search '{fd_search}'"
 
     return cmd

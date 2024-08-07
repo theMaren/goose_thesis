@@ -1,7 +1,36 @@
 """ Main search driver. """
 import argparse
 import os
-from planners.search import search_cmd
+#from planners.search import search_cmd
+
+_DOWNWARD_CPU = "./planners/downward_cpu/fast-downward.py"
+_DOWNWARD_GPU = "./planners/downward_gpu/fast-downward.py"
+
+def get_cmd(args):
+
+    aux_file = args.aux_file
+    plan_file = args.plan_file
+    df = os.path.abspath(args.domain_pddl)
+    pf = os.path.abspath(args.problem_pddl)
+    time_limit = args.overall_time_limit
+
+    description = repr(hash(repr(args))).replace("-", "n")
+
+    if aux_file is None:
+        os.makedirs("aux", exist_ok=True)
+        aux_file = f"aux/{description}.aux"
+
+    if plan_file is None:
+        os.makedirs("plans", exist_ok=True)
+        plan_file = f"plans/{description}.plan"
+    
+    fd_search = "eager_greedy([blind()])"
+    cmd = cmd = f"{_DOWNWARD_GPU} --overall-time-limit {time_limit} --sas-file {aux_file} --plan-file {plan_file} {df} {pf} --search '{fd_search}'"
+    
+    cmd = f"export GOOSE={os.getcwd()}/learner && {cmd}"
+
+    return cmd, aux_file
+
 
 
 if __name__ == "__main__":
@@ -12,11 +41,12 @@ if __name__ == "__main__":
     parser.add_argument(
         "problem_pddl", type=str, help="path to problem pddl file"
     )
-    parser.add_argument(
-        "model_path",
-        type=str,
-        help="path to saved model weights",
-    )
+    
+    #parser.add_argument(
+    #    "model_path",
+    #    type=str,
+    #    help="path to saved model weights",
+    #)
 
     parser.add_argument(
         "--algorithm",
@@ -48,7 +78,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    cmd, aux_file = search_cmd(args, "gnn")
+
+    cmd, aux_file = get_cmd(args)
     print("Executing the following command:")
     print(cmd)
     print()

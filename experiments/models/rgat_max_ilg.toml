@@ -1,0 +1,8 @@
+[model]
+method = "rgat"
+
+[config]
+rep = "ilg"
+aggr = "max"
+nhid = 64
+nlayers = 4
