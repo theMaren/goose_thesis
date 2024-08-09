@@ -110,6 +110,30 @@ def load_gnn_model(path, print_args=False):
     model.set_eval()
     return model, args
 
+def load_rgat_model(path, print_args=False):
+    # returns (GNN, Args)
+    import torch
+    from models.gnn.gat import Model
+
+    print(f"Loading model from {path}...")
+    if not os.path.exists(path):
+        print(f"Model not found at {path}")
+        exit(-1)
+    if torch.cuda.is_available():
+        model_state_dict, args = torch.load(path)
+    else:
+        model_state_dict, args = torch.load(
+            path, map_location=torch.device("cpu")
+        )
+    model = Model(params=arg_to_params(args))
+    model.load_state_dict_into_gnn(model_state_dict)
+    print("Model loaded!")
+    if print_args:
+        print_arguments(args)
+    model.set_eval()
+    return model, args
+
+
 
 def load_kernel_model(path):
     path = os.path.abspath(path)
@@ -127,8 +151,12 @@ def load_kernel_model(path):
 
 def load_gnn_model_and_setup(path, domain_file, problem_file):
     import torch
+    
+    if "rgat" in path:
+        model, args = load_rgat_model(path)
+    else:
+        model, args = load_gnn_model(path)
 
-    model, args = load_gnn_model(path)
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model = model.to(device)
     model.batch_search(True)

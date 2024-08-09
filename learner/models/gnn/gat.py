@@ -321,6 +321,7 @@ class Model(nn.Module):
     def h_batch(self, states: List[State]) -> List[float]:
         with torch.no_grad():
             data_list = []
+            print("")
             for state in states:
                 x, edge_index = self.rep.state_to_tgraph(state)
                 edge_index_gat, edge_type_gat = get_gat_edge_indices(edge_index)
