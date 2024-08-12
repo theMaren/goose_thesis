@@ -6,10 +6,15 @@ Given that the thesis focuses on enhancing the GOOSE framework, a significant po
 
 ## Table of contents
 
+- [Results](#results)
 - [Setup](#setup)
 - [Training](#training)
 - [Heuristic Search](#heuristic-search)
 - [Retraining](#retraining)
+
+## Results
+
+The `testing_outputs/` directory includes subdirectories for each heuristic used in the thesis, containing `.txt` files with the testing results obtained from the experiments. The models used for the experiments are located in the `trained_models/` subdirectory, with the exception of the WL-GPR models, which exceed GitHub's file size limit. Instructions on how to retrain these models are provided in the "Training" section of this README. As noted in the thesis, most heuristics combined with the Fast Downward planner are not deterministic, so slight variations in the results may occur when rerunning the models.
 
 ## Setup
 Use the commands below to make a virtual environment or a conda environment, activate it, install packages, and build cpp components.
