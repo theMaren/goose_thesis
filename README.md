@@ -1,33 +1,20 @@
 # <span style="font-weight:normal">**GOOSE**: **G**raphs **O**ptimised f**O**r **S**earch **E**valuation</span>
 
-GOOSE is a learning for planning framework. It contains various methods for learning representations for planning tasks, and algorithms for using such representations for solving planning tasks.
+This repository hosts the code for the Master Thesis titled **"Graph Neural Networks for Learning Domain-Dependent Heuristics in Automated Planning: Enhancing the GOOSE Framework."** This work was conducted at the University of Padova as part of the Erasmus Mundus Master Program in Big Data Management and Analytics.
 
-- If you just want to use the WL features, take a look at the [WLPlan](https://github.com/DillonZChen/wlplan) package.
-- If you want the code used for our ICAPS-24 paper, refer to the [ICAPS-24 release](https://github.com/DillonZChen/goose/releases/tag/icaps-24).
-- If you want the code used for our AAAI-24 paper, refer to the [AAAI-24 release](https://github.com/DillonZChen/goose/releases/tag/aaai-24).
-- Future releases will deprecate support for GNN models and will be built around the WLPlan package.
-
-See [references](#references) for the corresponding publications.
+Given that the thesis focuses on enhancing the GOOSE framework, a significant portion of the code is derived from the original GOOSE framework. You can find the original GOOSE framework [here](https://github.com/DillonZChen/goose).
 
 ## Table of contents
 - [**GOOSE**: **G**raphs **O**ptimised f**O**r **S**earch **E**valuation](#goose-graphs-optimised-for-search-evaluation)
   - [Table of contents](#table-of-contents)
   - [Setup](#setup)
   - [Training](#training)
-    - [Example for WL models](#example-for-wl-models)
-    - [Example for GNN models](#example-for-gnn-models)
   - [Heuristic Search](#heuristic-search)
-    - [Example for WL models](#example-for-wl-models-1)
-    - [Example for GNN models](#example-for-gnn-models-1)
-  - [References](#references)
-    - [AAAI-24 Experiments](#aaai-24-experiments)
-    - [Bibtex files](#bibtex-files)
-  - [Code acknowledgements](#code-acknowledgements)
-  - [TODOs](#todos)
+  - [Retraining](#retraining)
 
 ## Setup
-Use the commands below to make a virtual environment, activate it, install packages, and build cpp components.
-The setup has been tested with python versions 3.10 and higher, but should probably work for lower python3 versions as well.
+Use the commands below to make a virtual environment or a conda environment, activate it, install packages, and build cpp components.
+The setup has been tested with python versions 3.10.
 ```
 python3 -m venv venv
 source venv/bin/activate
@@ -35,7 +22,7 @@ pip install -r requirements.txt
 sh setup.sh
 ```
 
-In case a virtual environment does not work, you can also try anaconda:
+Setup with anaconda
 ```
 conda create --name goose python=3.10.4
 conda activate goose
@@ -44,11 +31,13 @@ sh setup.sh
 ```
 
 ## Training
-- see `python3 train.py -h` for help, you will need the `--save-file` argument if you want to save the model
-- to train with your own dataset, you will need to construct an experiment configuration toml file such as in [here](experiments/ipc23-learning/blocksworld.toml)
-  - the `tasks_dir` and `plans_dir` paths must contain the same files, differentiating only in the file suffix (.pddl and .plan, respectively)
+- The training configurations for various problem domains, including the domain, task, and plans directory for each domain, are available in the `.toml` files located in `experiments/ipc23-learning`.
+- The training configurations for the models, which define the model type, number of layers, graph type, and hidden units, can be found in the `.toml` files within `experiments/models`.
+- Below are example commands for training a domain-dependent Blocksworld model. To train a model for a different domain, the path to the corresponding configuration file must be updated. The `save_file` parameter is optional but required if the model needs to be saved for later testing.
+- If saving models for the RGAT models, it is important that the filename includes the term `rgat` to ensure they can be correctly executed later.
 
-### Example for WL models
+
+### Example for WL models (GOOSE_WL-GPR)
 ```
 python3 train.py experiments/models/wl_ilg_gpr.toml experiments/ipc23-learning/blocksworld.toml --save-file blocksworld_wl.model
 ```
@@ -65,63 +54,72 @@ python3 train.py experiments/models/rgat_max_ilg.toml experiments/ipc23-learning
 
 
 ## Heuristic Search
-- see `run_wl.py` for WL models and `run_gnn.py` for GNN models
-- GNN models automatically try to use GPU where possible and CPU otherwise
+- Test the models by performing heuristic search.
+- Example commands are provided for solving a single problem.
+- There is a different run script for each heuristic: see `run_blind.py`, `run_hff.py`, `run_multi.py`, `run_gnn.py`, and `run_wl.py`.
+- `run_blind.py` and `run_hff.py` do not require any previously trained models.
+- `run_multi.py` is implemented to always use the provided model along with the HFF heuristic as a second heuristic.
+- `run_gnn.py` is used for running both the GOOSE standard RGNN models and the RGAT models. It will automatically attempt to use the GPU if available.
+
+
+### Example for blind search
+```
+python3 run_blind.py benchmarks/ipc23-learning/blocksworld/domain.pddl benchmarks/ipc23-learning/blocksworld/testing/easy/p01.pddl
+```
+
+### Example for hff 
+```
+python3 run_hff.py benchmarks/ipc23-learning/blocksworld/domain.pddl benchmarks/ipc23-learning/blocksworld/testing/easy/p01.pddl
+```
+
+### Example for RGNN models (GOOSE_standard)
+```
+python3 run_gnn.py benchmarks/ipc23-learning/blocksworld/domain.pddl benchmarks/ipc23-learning/blocksworld/testing/easy/p01.pddl blocksworld_gnn.model
+```
+
+### Example for RGAT models (GOOSE_gat)
+```
+python3 run_gnn.py benchmarks/ipc23-learning/blocksworld/domain.pddl benchmarks/ipc23-learning/blocksworld/testing/easy/p01.pddl blocksworld_rgat.model
+```
+
+### Example for multiheuristic search
+```
+python3 run_multi.py benchmarks/ipc23-learning/blocksworld/domain.pddl benchmarks/ipc23-learning/blocksworld/testing/easy/p01.pddl blocksworld_gnn.model
+```
 
 ### Example for WL models
 ```
-python3 run_wl.py benchmarks/ipc23-learning/blocksworld/domain.pddl benchmarks/ipc23-learning/blocksworld/testing/medium/p01.pddl blocksworld_wl.model
+python3 run_wl.py benchmarks/ipc23-learning/blocksworld/domain.pddl benchmarks/ipc23-learning/blocksworld/testing/easy/p01.pddl blocksworld_wl.model
 ```
 
-### Example for GNN models
+## Retraining
+
+
+- retraining of the models for the heuristics xyu and cyxz
+- the solved problems for the retraining need to be saved in retraining/solutions/{difficulty}/{domain} in .plan files
+- the retraining scripts require the following parameters
+  - --model: Path to the model that should be retrained
+  - --domain: Problem domain for which the initial model was trained
+  - --difficulty: Difficulty level of the problems on which the model should be retrained possible values are "medium" and "hard"
+- Retraining will automatically attempt to use the GPU if available
+
+### Seperate test dataset
+- the seperate dataset that was generate for the retraining can be found under retraining/dataset_new
+- the generation can be replicated using the generate_all.py scripts that can be found in benchmarks/ipc23-learning/{domain}. Setting the random seeds in the scripts to the following values
 ```
-python3 run_gnn.py benchmarks/ipc23-learning/blocksworld/domain.pddl benchmarks/ipc23-learning/blocksworld/testing/medium/p01.pddl blocksworld_gnn.model
+seeds = [2, 2008, 2008, 2008]
 ```
+
+### Example for rgnn retraining 
+```
+python3 retrain_gnn.py --model blocksworld_gnn.model  --domain blocksworld --difficulty medium
+```
+
+### Example for rgat retraining
+```
+python3 retrain_rgat.py --model blocksworld_rgat.model  --domain blocksworld --difficulty medium
+```
+
 
 ## References
-The relevant publications for this repository are:
 
-- Dillon Ze Chen and Felipe Trevizan and Sylvie Thiébaux. **Return to Tradition: Learning Reliable Heuristics with Classical Machine Learning**. ICAPS 2024. [[pdf](https://dillonzchen.github.io/publications/chen-trevizan-thiebaux-icaps2024.pdf)]
-- Dillon Ze Chen and Sylvie Thiébaux and Felipe Trevizan. **Learning Domain-Independent Heuristics for Grounded and Lifted Planning**. AAAI 2024. [[pdf](https://dillonzchen.github.io/publications/chen-thiebaux-trevizan-aaai2024.pdf)]
-
-### AAAI-24 Experiments
-For source code corresponding to experiments from our AAAI-24 publication, please refer to this [release](https://github.com/DillonZChen/goose/releases/tag/aaai-24).
-
-### Bibtex files
-For the bibtex file for GNN architectures using the `slg`, `flg` and `llg` graph representations:
-```
-@inproceedings{chen:thiebaux:trevizan:aaai2024,
-  author       = {Dillon Ze Chen and
-                  Sylvie Thi{\'{e}}baux and
-                  Felipe W. Trevizan},
-  title        = {Learning Domain-Independent Heuristics for Grounded and Lifted Planning},
-  booktitle    = {AAAI},
-  year         = {2024},
-}
-```
-
-For the bibtex file for WL and GNN architectures using the `ilg` graph representations:
-```
-@inproceedings{chen:trevizan:thiebaux:icaps2024,
-  author       = {Dillon Ze Chen and
-                  Felipe W. Trevizan and 
-                  Sylvie Thi{\'{e}}baux},
-  title        = {Return to Tradition: Learning Reliable Heuristics with Classical Machine Learning},
-  booktitle    = {ICAPS},
-  year         = {2024},
-}
-```
-
-## Code acknowledgements
-- [Fast Downward](https://github.com/aibasel/downward) by Malte Helmert and various contributors for the planning parser, grounder and grounded search algorithm.
-- [Scorpion](https://github.com/jendrikseipp/scorpion) by Jendrik Seipp for a powerful optimal planner for generating planning instances.
-- [Powerlifted](https://github.com/abcorrea/powerlifted) by Augusto B. Corrêa and various contributors for their lifted planner.
-- All the other various packages listed in the requirements
-
-## TODOs
-The next release will aim to support the following features:
-- Even faster heuristic evaluation
-- An option to keep static facts when training and evaluating by considering schema effects.
-- Evaluation using Powerlifted for problems that cannot be grounded such as Beluga.
-- Ranking formulations for heuristic prediction, e.g. [RankSVM](https://arxiv.org/abs/1608.01302) or [DirectRanker](https://felipe.trevizan.org/papers/hao24:ranking.pdf)
-- Apptainer recipe

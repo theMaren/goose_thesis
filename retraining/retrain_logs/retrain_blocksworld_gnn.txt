@@ -1,0 +1,26 @@
+Retrain blocksworld_gnn.model finished at 2024-08-12 14:24:05
+epochs: 15
+number of problems retrained: 83
+total time: 2074.48854136467
+retrain time: 1755.441220998764
+graph generation time: 316.3994629383087
+train_loss_before: 4.6091209778710684
+val_loss_before: 0.05507502011540863
+combined_loss_before: 1.573090339367295
+train_loss_after: 0.0572999256152447
+val_loss_after: 0.05819553277041349
+combined_loss_after: 0.05789699705202389
+
+Retrain blocksworld_gnn.model finished at 2024-08-12 14:45:50
+epochs: 7
+number of problems retrained: 83
+total time: 1290.301917552948
+retrain time: 976.0931098461151
+graph generation time: 311.96018505096436
+train_loss_before: 2589.921263747328
+val_loss_before: 1376.8889879014757
+combined_loss_before: 1781.2330798500932
+train_loss_after: 225.62935613084028
+val_loss_after: 257.5561171001858
+combined_loss_after: 246.9138634437373
+

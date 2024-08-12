@@ -30,6 +30,9 @@ def get_plan_info(domain_pddl, problem_pddl, plan_file, args):
     state_output_file = aux_garbage + ".states"
     sas_file = aux_garbage + ".sas"
 
+    if "learner" not in os.getcwd():
+        os.chdir("learner")
+
     cmd = {
         "pwl": f"export PLAN_PATH={plan_file} "
         + f"&& {_POWERLIFTED} -d {domain_pddl} -i {problem_pddl} -s perfect "

@@ -1,0 +1,13 @@
+Retrain blocksworld_rgat.model finished at 2024-08-12 14:56:02
+epochs: 1
+number of problems retrained: 83
+total time: 566.0158250331879
+retrain time: 457.9001679420471
+graph generation time: 108.08680486679077
+train_loss_before: 5715.753076448215
+val_loss_before: 4358.859689670139
+combined_loss_before: 4811.157485262832
+train_loss_after: 5715.753076448215
+val_loss_after: 4358.859689670139
+combined_loss_after: 4811.157485262832
+
