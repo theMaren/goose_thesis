@@ -1,0 +1,30 @@
+p12.pddl: Problem could not be solved. Steps until abortion 274, highest h 0, planner time 1200.12s
+p23.pddl: Problem could not be solved. Steps until abortion 69, highest h 0, planner time 1199.79s
+p27.pddl: Problem could not be solved. Steps until abortion 46, highest h 0, planner time 1200.10s
+p16.pddl: Problem could not be solved. Steps until abortion 164, highest h 0, planner time 1199.61s
+p02.pddl: Solution found with plan length 812, expanded 2044, evaluated 53814, generated 232568, highest h 0, planner time 524.21s
+p06.pddl: Problem could not be solved. Steps until abortion 774, highest h 0, planner time 1199.53s
+p03.pddl: Solution found with plan length 885, expanded 2302, evaluated 67154, generated 292158, highest h 0, planner time 736.64s
+p07.pddl: Problem could not be solved. Steps until abortion 630, highest h 0, planner time 1199.26s
+p13.pddl: Problem could not be solved. Steps until abortion 241, highest h 0, planner time 1199.65s
+p22.pddl: Problem could not be solved. Steps until abortion 77, highest h 0, planner time 1199.63s
+p26.pddl: Problem could not be solved. Steps until abortion 49, highest h 0, planner time 1199.91s
+p17.pddl: Problem could not be solved. Steps until abortion 144, highest h 0, planner time 1199.19s
+p19.pddl: Problem could not be solved. Steps until abortion 107, highest h 0, planner time 1199.38s
+p28.pddl: Problem could not be solved. Steps until abortion 40, highest h 0, planner time 1199.72s
+p01.pddl: Solution found with plan length 731, expanded 2632, evaluated 43054, generated 264322, highest h 0, planner time 375.41s
+p30.pddl: Problem could not be solved. Steps until abortion 34, highest h 0, planner time 1200.14s
+p05.pddl: Problem could not be solved. Steps until abortion 935, highest h 0, planner time 1199.99s
+p09.pddl: Problem could not be solved. Steps until abortion 435, highest h 0, planner time 1199.63s
+p11.pddl: Problem could not be solved. Steps until abortion 314, highest h 0, planner time 1200.07s
+p20.pddl: Problem could not be solved. Steps until abortion 99, highest h 0, planner time 1199.46s
+p24.pddl: Problem could not be solved. Steps until abortion 59, highest h 0, planner time 1199.85s
+p15.pddl: Problem could not be solved. Steps until abortion 181, highest h 0, planner time 1199.65s
+p08.pddl: Problem could not be solved. Steps until abortion 507, highest h 0, planner time 1199.14s
+p10.pddl: Problem could not be solved. Steps until abortion 362, highest h 0, planner time 1199.75s
+p21.pddl: Problem could not be solved. Steps until abortion 84, highest h 0, planner time 1200.03s
+p25.pddl: Problem could not be solved. Steps until abortion 59, highest h 0, planner time 1200.12s
+p14.pddl: Problem could not be solved. Steps until abortion 205, highest h 0, planner time 1199.84s
+p18.pddl: Problem could not be solved. Steps until abortion 127, highest h 0, planner time 1199.51s
+p29.pddl: Problem could not be solved. Steps until abortion 37, highest h 0, planner time 1199.85s
+p04.pddl: Solution found with plan length 997, expanded 2475, evaluated 82716, generated 349183, highest h 0, planner time 1035.46s

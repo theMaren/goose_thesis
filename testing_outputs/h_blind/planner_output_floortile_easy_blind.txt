@@ -1,0 +1,30 @@
+benchmarks/ipc23-learning/floortile/testing/easy/p08.pddl: Problem could not be solved, planner time 1170.82s
+benchmarks/ipc23-learning/floortile/testing/easy/p10.pddl: Problem could not be solved, planner time 1073.65s
+benchmarks/ipc23-learning/floortile/testing/easy/p21.pddl: Problem could not be solved, planner time 1199.72s
+benchmarks/ipc23-learning/floortile/testing/easy/p25.pddl: Problem could not be solved, planner time 1199.76s
+benchmarks/ipc23-learning/floortile/testing/easy/p14.pddl: Problem could not be solved, planner time 1199.72s
+benchmarks/ipc23-learning/floortile/testing/easy/p18.pddl: Problem could not be solved, planner time 1199.74s
+benchmarks/ipc23-learning/floortile/testing/easy/p29.pddl: Problem could not be solved, planner time 1199.83s
+benchmarks/ipc23-learning/floortile/testing/easy/p04.pddl: Problem could not be solved, planner time 1112.24s
+benchmarks/ipc23-learning/floortile/testing/easy/p19.pddl: Problem could not be solved, planner time 1199.75s
+benchmarks/ipc23-learning/floortile/testing/easy/p28.pddl: Problem could not be solved, planner time 1199.74s
+p01.pddl: Solution found, planner time 3.58s
+benchmarks/ipc23-learning/floortile/testing/easy/p30.pddl: Problem could not be solved, planner time 1199.79s
+benchmarks/ipc23-learning/floortile/testing/easy/p05.pddl: Problem could not be solved, planner time 1185.76s
+benchmarks/ipc23-learning/floortile/testing/easy/p09.pddl: Problem could not be solved, planner time 1037.12s
+benchmarks/ipc23-learning/floortile/testing/easy/p11.pddl: Problem could not be solved, planner time 1199.76s
+benchmarks/ipc23-learning/floortile/testing/easy/p20.pddl: Problem could not be solved, planner time 1199.75s
+benchmarks/ipc23-learning/floortile/testing/easy/p24.pddl: Problem could not be solved, planner time 1199.77s
+benchmarks/ipc23-learning/floortile/testing/easy/p15.pddl: Problem could not be solved, planner time 1199.74s
+p03.pddl: Solution found, planner time 164.75s
+benchmarks/ipc23-learning/floortile/testing/easy/p07.pddl: Problem could not be solved, planner time 1134.25s
+benchmarks/ipc23-learning/floortile/testing/easy/p13.pddl: Problem could not be solved, planner time 1199.74s
+benchmarks/ipc23-learning/floortile/testing/easy/p22.pddl: Problem could not be solved, planner time 1199.75s
+benchmarks/ipc23-learning/floortile/testing/easy/p26.pddl: Problem could not be solved, planner time 1199.75s
+benchmarks/ipc23-learning/floortile/testing/easy/p17.pddl: Problem could not be solved, planner time 1199.73s
+benchmarks/ipc23-learning/floortile/testing/easy/p12.pddl: Problem could not be solved, planner time 1199.78s
+benchmarks/ipc23-learning/floortile/testing/easy/p23.pddl: Problem could not be solved, planner time 1199.76s
+benchmarks/ipc23-learning/floortile/testing/easy/p27.pddl: Problem could not be solved, planner time 1199.76s
+benchmarks/ipc23-learning/floortile/testing/easy/p16.pddl: Problem could not be solved, planner time 1199.74s
+p02.pddl: Solution found, planner time 381.02s
+benchmarks/ipc23-learning/floortile/testing/easy/p06.pddl: Problem could not be solved, planner time 1104.56s

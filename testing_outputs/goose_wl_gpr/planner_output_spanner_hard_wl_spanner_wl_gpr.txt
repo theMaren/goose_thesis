@@ -1,0 +1,210 @@
+p01.pddl: Solution found, planner time 47.2919s
+Plan length: 201
+Expanded states: 201
+Reopened states: 0
+Evaluated states: 106980
+Generated states: 106979
+
+p02.pddl: Solution found, planner time 66.8327s
+Plan length: 221
+Expanded states: 221
+Reopened states: 0
+Evaluated states: 151458
+Generated states: 151457
+
+p03.pddl: Solution found, planner time 106.055s
+Plan length: 242
+Expanded states: 242
+Reopened states: 0
+Evaluated states: 210729
+Generated states: 210728
+
+p04.pddl: Solution found, planner time 151.46s
+Plan length: 260
+Expanded states: 261
+Reopened states: 0
+Evaluated states: 276250
+Generated states: 276249
+
+p05.pddl: Solution found, planner time 248.484s
+Plan length: 284
+Expanded states: 284
+Reopened states: 0
+Evaluated states: 369189
+Generated states: 369188
+
+p06.pddl: Solution found, planner time 331.21s
+Plan length: 302
+Expanded states: 302
+Reopened states: 0
+Evaluated states: 463009
+Generated states: 463008
+
+p07.pddl: Solution found, planner time 524.625s
+Plan length: 329
+Expanded states: 329
+Reopened states: 0
+Evaluated states: 608029
+Generated states: 608028
+
+p08.pddl: Solution found, planner time 760.606s
+Plan length: 351
+Expanded states: 353
+Reopened states: 0
+Evaluated states: 751830
+Generated states: 751832
+
+p09.pddl: Solution found, planner time 679.586s
+Plan length: 373
+Expanded states: 377
+Reopened states: 0
+Evaluated states: 921985
+Generated states: 921990
+
+p10.pddl: Solution found, planner time 1068.94s
+Plan length: 396
+Expanded states: 396
+Reopened states: 0
+Evaluated states: 1122046
+Generated states: 1122045
+
+p11.pddl: Solution found, planner time 1102.15s
+Plan length: 418
+Expanded states: 418
+Reopened states: 0
+Evaluated states: 1342305
+Generated states: 1342304
+
+p12.pddl: Problem could not be solved, planner time 1199.29s
+Plan length: 0
+Expanded states: 392
+Reopened states: 0
+Evaluated states: 1390639
+Generated states: 0
+
+p13.pddl: Problem could not be solved, planner time 1199.55s
+Plan length: 0
+Expanded states: 381
+Reopened states: 0
+Evaluated states: 1236663
+Generated states: 0
+
+p14.pddl: Problem could not be solved, planner time 1199.05s
+Plan length: 0
+Expanded states: 389
+Reopened states: 0
+Evaluated states: 1254767
+Generated states: 0
+
+p15.pddl: Problem could not be solved, planner time 1199.86s
+Plan length: 0
+Expanded states: 383
+Reopened states: 0
+Evaluated states: 1019209
+Generated states: 0
+
+p16.pddl: Problem could not be solved, planner time 1199.59s
+Plan length: 0
+Expanded states: 393
+Reopened states: 0
+Evaluated states: 668512
+Generated states: 0
+
+p17.pddl: Problem could not be solved, planner time 1200.06s
+Plan length: 0
+Expanded states: 407
+Reopened states: 0
+Evaluated states: 690088
+Generated states: 0
+
+p18.pddl: Problem could not be solved, planner time 1199.69s
+Plan length: 0
+Expanded states: 421
+Reopened states: 0
+Evaluated states: 703859
+Generated states: 0
+
+p19.pddl: Problem could not be solved, planner time 1199.53s
+Plan length: 0
+Expanded states: 434
+Reopened states: 0
+Evaluated states: 661918
+Generated states: 0
+
+p20.pddl: Problem could not be solved, planner time 1199.20s
+Plan length: 0
+Expanded states: 446
+Reopened states: 0
+Evaluated states: 545037
+Generated states: 0
+
+p21.pddl: Problem could not be solved, planner time 1199.89s
+Plan length: 0
+Expanded states: 464
+Reopened states: 0
+Evaluated states: 714490
+Generated states: 0
+
+p22.pddl: Problem could not be solved, planner time 1199.76s
+Plan length: 0
+Expanded states: 479
+Reopened states: 0
+Evaluated states: 830995
+Generated states: 0
+
+p23.pddl: Problem could not be solved, planner time 1199.09s
+Plan length: 0
+Expanded states: 493
+Reopened states: 0
+Evaluated states: 751616
+Generated states: 0
+
+p24.pddl: Problem could not be solved, planner time 1199.96s
+Plan length: 0
+Expanded states: 506
+Reopened states: 0
+Evaluated states: 649091
+Generated states: 0
+
+p25.pddl: Problem could not be solved, planner time 1199.86s
+Plan length: 0
+Expanded states: 519
+Reopened states: 0
+Evaluated states: 606196
+Generated states: 0
+
+p26.pddl: Problem could not be solved, planner time 1199.09s
+Plan length: 0
+Expanded states: 535
+Reopened states: 0
+Evaluated states: 735586
+Generated states: 0
+
+p27.pddl: Problem could not be solved, planner time 1199.10s
+Plan length: 0
+Expanded states: 551
+Reopened states: 0
+Evaluated states: 784453
+Generated states: 0
+
+p28.pddl: Problem could not be solved, planner time 1199.34s
+Plan length: 0
+Expanded states: 567
+Reopened states: 0
+Evaluated states: 728346
+Generated states: 0
+
+p29.pddl: Problem could not be solved, planner time 1199.45s
+Plan length: 0
+Expanded states: 579
+Reopened states: 0
+Evaluated states: 665643
+Generated states: 0
+
+p30.pddl: Problem could not be solved, planner time 1199.05s
+Plan length: 0
+Expanded states: 594
+Reopened states: 0
+Evaluated states: 704370
+Generated states: 0
+

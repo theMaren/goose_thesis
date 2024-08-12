@@ -1,0 +1,210 @@
+p01.pddl: Solution found, planner time 4.13885s
+Plan length: 12
+Expanded states: 16
+Reopened states: 0
+Evaluated states: 40
+Generated states: 69
+
+p02.pddl: Solution found, planner time 2.71206s
+Plan length: 17
+Expanded states: 18
+Reopened states: 0
+Evaluated states: 80
+Generated states: 126
+
+p03.pddl: Solution found, planner time 2.92051s
+Plan length: 33
+Expanded states: 37
+Reopened states: 0
+Evaluated states: 136
+Generated states: 303
+
+p04.pddl: Solution found, planner time 2.80014s
+Plan length: 23
+Expanded states: 27
+Reopened states: 0
+Evaluated states: 92
+Generated states: 165
+
+p05.pddl: Solution found, planner time 2.8528s
+Plan length: 7
+Expanded states: 7
+Reopened states: 0
+Evaluated states: 22
+Generated states: 44
+
+p06.pddl: Solution found, planner time 2.97518s
+Plan length: 23
+Expanded states: 30
+Reopened states: 0
+Evaluated states: 121
+Generated states: 342
+
+p07.pddl: Solution found, planner time 2.81999s
+Plan length: 39
+Expanded states: 39
+Reopened states: 0
+Evaluated states: 252
+Generated states: 581
+
+p08.pddl: Solution found, planner time 2.87334s
+Plan length: 22
+Expanded states: 22
+Reopened states: 0
+Evaluated states: 88
+Generated states: 236
+
+p09.pddl: Solution found, planner time 3.08704s
+Plan length: 8
+Expanded states: 11
+Reopened states: 0
+Evaluated states: 53
+Generated states: 146
+
+p10.pddl: Solution found, planner time 2.77365s
+Plan length: 25
+Expanded states: 38
+Reopened states: 0
+Evaluated states: 198
+Generated states: 355
+
+p11.pddl: Solution found, planner time 2.76128s
+Plan length: 37
+Expanded states: 61
+Reopened states: 0
+Evaluated states: 362
+Generated states: 1128
+
+p12.pddl: Solution found, planner time 3.1588s
+Plan length: 42
+Expanded states: 82
+Reopened states: 0
+Evaluated states: 432
+Generated states: 1015
+
+p13.pddl: Solution found, planner time 2.76946s
+Plan length: 44
+Expanded states: 55
+Reopened states: 0
+Evaluated states: 291
+Generated states: 855
+
+p14.pddl: Solution found, planner time 3.50396s
+Plan length: 26
+Expanded states: 44
+Reopened states: 0
+Evaluated states: 183
+Generated states: 557
+
+p15.pddl: Solution found, planner time 2.69371s
+Plan length: 44
+Expanded states: 54
+Reopened states: 0
+Evaluated states: 423
+Generated states: 1181
+
+p16.pddl: Solution found, planner time 2.78323s
+Plan length: 34
+Expanded states: 51
+Reopened states: 0
+Evaluated states: 561
+Generated states: 1304
+
+p17.pddl: Solution found, planner time 2.92989s
+Plan length: 72
+Expanded states: 166
+Reopened states: 0
+Evaluated states: 1890
+Generated states: 5823
+
+p18.pddl: Solution found, planner time 2.72371s
+Plan length: 39
+Expanded states: 96
+Reopened states: 0
+Evaluated states: 689
+Generated states: 2288
+
+p19.pddl: Solution found, planner time 4.83361s
+Plan length: 134
+Expanded states: 2874
+Reopened states: 0
+Evaluated states: 22042
+Generated states: 83798
+
+p20.pddl: Solution found, planner time 2.98457s
+Plan length: 115
+Expanded states: 253
+Reopened states: 0
+Evaluated states: 3504
+Generated states: 9715
+
+p21.pddl: Solution found, planner time 2.76002s
+Plan length: 57
+Expanded states: 82
+Reopened states: 0
+Evaluated states: 577
+Generated states: 1629
+
+p22.pddl: Solution found, planner time 3.25568s
+Plan length: 139
+Expanded states: 600
+Reopened states: 0
+Evaluated states: 5187
+Generated states: 34734
+
+p23.pddl: Solution found, planner time 3.04265s
+Plan length: 91
+Expanded states: 145
+Reopened states: 0
+Evaluated states: 2220
+Generated states: 3830
+
+p24.pddl: Solution found, planner time 4.13809s
+Plan length: 141
+Expanded states: 1819
+Reopened states: 0
+Evaluated states: 15530
+Generated states: 69421
+
+p25.pddl: Solution found, planner time 3.59417s
+Plan length: 90
+Expanded states: 856
+Reopened states: 0
+Evaluated states: 8346
+Generated states: 47606
+
+p26.pddl: Solution found, planner time 4.61502s
+Plan length: 62
+Expanded states: 3726
+Reopened states: 0
+Evaluated states: 24719
+Generated states: 310657
+
+p27.pddl: Solution found, planner time 9.6152s
+Plan length: 128
+Expanded states: 3957
+Reopened states: 0
+Evaluated states: 64370
+Generated states: 255654
+
+p28.pddl: Solution found, planner time 5.80984s
+Plan length: 247
+Expanded states: 1693
+Reopened states: 0
+Evaluated states: 23701
+Generated states: 162025
+
+p29.pddl: Solution found, planner time 2.71528s
+Plan length: 44
+Expanded states: 83
+Reopened states: 0
+Evaluated states: 533
+Generated states: 791
+
+p30.pddl: Solution found, planner time 3.55993s
+Plan length: 144
+Expanded states: 552
+Reopened states: 0
+Evaluated states: 8435
+Generated states: 37506
+

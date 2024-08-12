@@ -1,0 +1,10 @@
+p26.pddl: Problem could not be solved. Steps until abortion 33, highest h 0, planner time 1199.35s
+p17.pddl: Problem could not be solved. Steps until abortion 59, highest h 0, planner time 1199.55s
+p13.pddl: Problem could not be solved. Steps until abortion 92, highest h 0, planner time 1199.49s
+p22.pddl: Problem could not be solved. Steps until abortion 41, highest h 0, planner time 1199.65s
+p07.pddl: Problem could not be solved. Steps until abortion 81, highest h 0, planner time 1199.84s
+p03.pddl: Problem could not be solved. Steps until abortion 60, highest h 0, planner time 1198.94s
+p06.pddl: Problem could not be solved. Steps until abortion 96, highest h 0, planner time 1198.98s
+p02.pddl: Problem could not be solved. Steps until abortion 70, highest h 0, planner time 1198.95s
+p27.pddl: Problem could not be solved. Steps until abortion 74, highest h 0, planner time 1199.82s
+p16.pddl: Problem could not be solved. Steps until abortion 53, highest h 0, planner time 1199.64s

@@ -1,0 +1,30 @@
+p09.pddl: Solution found, planner time 30.52s
+benchmarks/ipc23-learning/ferry/testing/easy/p20.pddl: Problem could not be solved, planner time 1200.36s
+p11.pddl: Solution found, planner time 1097.82s
+benchmarks/ipc23-learning/ferry/testing/easy/p15.pddl: Problem could not be solved, planner time 1200.03s
+benchmarks/ipc23-learning/ferry/testing/easy/p24.pddl: Problem could not be solved, planner time 1200.38s
+benchmarks/ipc23-learning/ferry/testing/easy/p28.pddl: Problem could not be solved, planner time 1200.55s
+benchmarks/ipc23-learning/ferry/testing/easy/p19.pddl: Problem could not be solved, planner time 1200.35s
+benchmarks/ipc23-learning/ferry/testing/easy/p30.pddl: Problem could not be solved, planner time 1200.59s
+p01.pddl: Solution found, planner time 0.17s
+p05.pddl: Solution found, planner time 0.21s
+benchmarks/ipc23-learning/ferry/testing/easy/p29.pddl: Problem could not be solved, planner time 1200.57s
+benchmarks/ipc23-learning/ferry/testing/easy/p18.pddl: Problem could not be solved, planner time 1200.35s
+p04.pddl: Solution found, planner time 0.18s
+p08.pddl: Solution found, planner time 4.85s
+benchmarks/ipc23-learning/ferry/testing/easy/p21.pddl: Problem could not be solved, planner time 1200.19s
+p10.pddl: Solution found, planner time 124.35s
+benchmarks/ipc23-learning/ferry/testing/easy/p14.pddl: Problem could not be solved, planner time 1200.27s
+benchmarks/ipc23-learning/ferry/testing/easy/p25.pddl: Problem could not be solved, planner time 1200.41s
+p02.pddl: Solution found, planner time 0.18s
+p06.pddl: Solution found, planner time 0.33s
+benchmarks/ipc23-learning/ferry/testing/easy/p23.pddl: Problem could not be solved, planner time 1200.19s
+benchmarks/ipc23-learning/ferry/testing/easy/p12.pddl: Problem could not be solved, planner time 1199.91s
+benchmarks/ipc23-learning/ferry/testing/easy/p16.pddl: Problem could not be solved, planner time 1200.05s
+benchmarks/ipc23-learning/ferry/testing/easy/p27.pddl: Problem could not be solved, planner time 1200.51s
+benchmarks/ipc23-learning/ferry/testing/easy/p22.pddl: Problem could not be solved, planner time 1200.60s
+benchmarks/ipc23-learning/ferry/testing/easy/p13.pddl: Problem could not be solved, planner time 1200.00s
+benchmarks/ipc23-learning/ferry/testing/easy/p17.pddl: Problem could not be solved, planner time 1200.28s
+benchmarks/ipc23-learning/ferry/testing/easy/p26.pddl: Problem could not be solved, planner time 1200.55s
+p03.pddl: Solution found, planner time 0.18s
+p07.pddl: Solution found, planner time 0.62s

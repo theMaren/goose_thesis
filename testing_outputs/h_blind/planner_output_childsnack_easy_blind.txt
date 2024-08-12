@@ -1,0 +1,30 @@
+benchmarks/ipc23-learning/childsnack/testing/easy/p20.pddl: Problem could not be solved, planner time 1199.70s
+benchmarks/ipc23-learning/childsnack/testing/easy/p11.pddl: Problem could not be solved, planner time 1199.62s
+p09.pddl: Solution found, planner time 85.58s
+benchmarks/ipc23-learning/childsnack/testing/easy/p15.pddl: Problem could not be solved, planner time 1199.62s
+benchmarks/ipc23-learning/childsnack/testing/easy/p24.pddl: Problem could not be solved, planner time 1199.90s
+benchmarks/ipc23-learning/childsnack/testing/easy/p30.pddl: Problem could not be solved, planner time 1199.94s
+p01.pddl: Solution found, planner time 0.45s
+benchmarks/ipc23-learning/childsnack/testing/easy/p28.pddl: Problem could not be solved, planner time 1199.87s
+benchmarks/ipc23-learning/childsnack/testing/easy/p19.pddl: Problem could not be solved, planner time 1199.63s
+p05.pddl: Solution found, planner time 0.79s
+benchmarks/ipc23-learning/childsnack/testing/easy/p29.pddl: Problem could not be solved, planner time 1199.90s
+benchmarks/ipc23-learning/childsnack/testing/easy/p18.pddl: Problem could not be solved, planner time 1199.55s
+p04.pddl: Solution found, planner time 0.79s
+benchmarks/ipc23-learning/childsnack/testing/easy/p21.pddl: Problem could not be solved, planner time 1199.70s
+benchmarks/ipc23-learning/childsnack/testing/easy/p10.pddl: Problem could not be solved, planner time 1199.53s
+p08.pddl: Solution found, planner time 36.29s
+benchmarks/ipc23-learning/childsnack/testing/easy/p14.pddl: Problem could not be solved, planner time 1199.50s
+benchmarks/ipc23-learning/childsnack/testing/easy/p25.pddl: Problem could not be solved, planner time 1199.74s
+p02.pddl: Solution found, planner time 0.44s
+p06.pddl: Solution found, planner time 36.31s
+benchmarks/ipc23-learning/childsnack/testing/easy/p23.pddl: Problem could not be solved, planner time 1199.76s
+benchmarks/ipc23-learning/childsnack/testing/easy/p12.pddl: Problem could not be solved, planner time 1199.54s
+benchmarks/ipc23-learning/childsnack/testing/easy/p16.pddl: Problem could not be solved, planner time 1199.55s
+benchmarks/ipc23-learning/childsnack/testing/easy/p27.pddl: Problem could not be solved, planner time 1199.90s
+benchmarks/ipc23-learning/childsnack/testing/easy/p22.pddl: Problem could not be solved, planner time 1199.71s
+benchmarks/ipc23-learning/childsnack/testing/easy/p13.pddl: Problem could not be solved, planner time 1199.56s
+benchmarks/ipc23-learning/childsnack/testing/easy/p17.pddl: Problem could not be solved, planner time 1199.55s
+benchmarks/ipc23-learning/childsnack/testing/easy/p26.pddl: Problem could not be solved, planner time 1199.83s
+p03.pddl: Solution found, planner time 0.45s
+p07.pddl: Solution found, planner time 36.43s

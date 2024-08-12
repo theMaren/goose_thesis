@@ -1,0 +1,30 @@
+benchmarks/ipc23-learning/rovers/testing/easy/p16.pddl: Problem could not be solved, planner time 1199.56s
+benchmarks/ipc23-learning/rovers/testing/easy/p27.pddl: Problem could not be solved, planner time 1199.74s
+benchmarks/ipc23-learning/rovers/testing/easy/p23.pddl: Problem could not be solved, planner time 1199.75s
+p12.pddl: Solution found, planner time 178.27s
+p06.pddl: Solution found, planner time 0.13s
+p02.pddl: Solution found, planner time 0.10s
+p07.pddl: Solution found, planner time 33.53s
+p03.pddl: Solution found, planner time 0.33s
+benchmarks/ipc23-learning/rovers/testing/easy/p17.pddl: Problem could not be solved, planner time 1199.54s
+benchmarks/ipc23-learning/rovers/testing/easy/p26.pddl: Problem could not be solved, planner time 1199.46s
+benchmarks/ipc23-learning/rovers/testing/easy/p22.pddl: Problem could not be solved, planner time 1199.71s
+p13.pddl: Solution found, planner time 198.01s
+p05.pddl: Solution found, planner time 0.09s
+benchmarks/ipc23-learning/rovers/testing/easy/p30.pddl: Problem could not be solved, planner time 1199.81s
+p01.pddl: Solution found, planner time 0.11s
+benchmarks/ipc23-learning/rovers/testing/easy/p28.pddl: Problem could not be solved, planner time 1199.80s
+benchmarks/ipc23-learning/rovers/testing/easy/p19.pddl: Problem could not be solved, planner time 1199.67s
+p15.pddl: Solution found, planner time 159.19s
+benchmarks/ipc23-learning/rovers/testing/easy/p24.pddl: Problem could not be solved, planner time 1199.63s
+benchmarks/ipc23-learning/rovers/testing/easy/p20.pddl: Problem could not be solved, planner time 1199.65s
+p11.pddl: Solution found, planner time 12.36s
+p09.pddl: Solution found, planner time 0.12s
+p14.pddl: Solution found, planner time 0.16s
+benchmarks/ipc23-learning/rovers/testing/easy/p25.pddl: Problem could not be solved, planner time 1199.54s
+benchmarks/ipc23-learning/rovers/testing/easy/p21.pddl: Problem could not be solved, planner time 1199.59s
+p10.pddl: Solution found, planner time 0.65s
+p08.pddl: Solution found, planner time 0.10s
+p04.pddl: Solution found, planner time 0.15s
+benchmarks/ipc23-learning/rovers/testing/easy/p29.pddl: Problem could not be solved, planner time 1199.63s
+benchmarks/ipc23-learning/rovers/testing/easy/p18.pddl: Problem could not be solved, planner time 1199.63s

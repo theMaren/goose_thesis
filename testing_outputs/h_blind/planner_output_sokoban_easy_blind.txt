@@ -1,0 +1,30 @@
+p17.pddl: Solution found, planner time 4.15s
+benchmarks/ipc23-learning/sokoban/testing/easy/p26.pddl: Problem could not be solved, planner time 1199.80s
+p22.pddl: Solution found, planner time 0.22s
+p13.pddl: Solution found, planner time 0.18s
+p07.pddl: Solution found, planner time 0.10s
+p03.pddl: Solution found, planner time 0.13s
+p06.pddl: Solution found, planner time 0.11s
+p02.pddl: Solution found, planner time 0.12s
+p16.pddl: Solution found, planner time 0.83s
+p27.pddl: Solution found, planner time 989.82s
+p23.pddl: Solution found, planner time 0.42s
+p12.pddl: Solution found, planner time 0.18s
+p04.pddl: Solution found, planner time 0.12s
+benchmarks/ipc23-learning/sokoban/testing/easy/p29.pddl: Problem could not be solved, planner time 1199.65s
+p18.pddl: Solution found, planner time 0.48s
+p14.pddl: Solution found, planner time 0.12s
+p25.pddl: Solution found, planner time 281.26s
+p08.pddl: Solution found, planner time 0.13s
+p21.pddl: Solution found, planner time 0.22s
+p10.pddl: Solution found, planner time 0.11s
+p15.pddl: Solution found, planner time 0.10s
+p24.pddl: Solution found, planner time 79.59s
+p09.pddl: Solution found, planner time 0.13s
+p20.pddl: Solution found, planner time 9.61s
+p11.pddl: Solution found, planner time 0.12s
+p05.pddl: Solution found, planner time 0.11s
+p28.pddl: Solution found, planner time 8.71s
+p19.pddl: Solution found, planner time 2.22s
+p30.pddl: Solution found, planner time 107.30s
+p01.pddl: Solution found, planner time 0.12s

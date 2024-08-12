@@ -1,0 +1,30 @@
+benchmarks/ipc23-learning/satellite/testing/easy/p17.pddl: Problem could not be solved, planner time 1199.39s
+benchmarks/ipc23-learning/satellite/testing/easy/p26.pddl: Problem could not be solved, planner time 1199.57s
+benchmarks/ipc23-learning/satellite/testing/easy/p22.pddl: Problem could not be solved, planner time 1199.50s
+p13.pddl: Solution found, planner time 20.58s
+p07.pddl: Solution found, planner time 1.24s
+p03.pddl: Solution found, planner time 0.11s
+p06.pddl: Solution found, planner time 1.12s
+p02.pddl: Solution found, planner time 0.10s
+benchmarks/ipc23-learning/satellite/testing/easy/p16.pddl: Problem could not be solved, planner time 1199.42s
+benchmarks/ipc23-learning/satellite/testing/easy/p27.pddl: Problem could not be solved, planner time 1199.59s
+benchmarks/ipc23-learning/satellite/testing/easy/p23.pddl: Problem could not be solved, planner time 1199.50s
+p12.pddl: Solution found, planner time 39.86s
+p04.pddl: Solution found, planner time 0.11s
+benchmarks/ipc23-learning/satellite/testing/easy/p29.pddl: Problem could not be solved, planner time 1199.71s
+benchmarks/ipc23-learning/satellite/testing/easy/p18.pddl: Problem could not be solved, planner time 1199.35s
+benchmarks/ipc23-learning/satellite/testing/easy/p14.pddl: Problem could not be solved, planner time 1199.39s
+benchmarks/ipc23-learning/satellite/testing/easy/p25.pddl: Problem could not be solved, planner time 1199.72s
+p08.pddl: Solution found, planner time 0.26s
+benchmarks/ipc23-learning/satellite/testing/easy/p21.pddl: Problem could not be solved, planner time 1199.47s
+p10.pddl: Solution found, planner time 3.11s
+benchmarks/ipc23-learning/satellite/testing/easy/p15.pddl: Problem could not be solved, planner time 1199.34s
+benchmarks/ipc23-learning/satellite/testing/easy/p24.pddl: Problem could not be solved, planner time 1199.52s
+p09.pddl: Solution found, planner time 3.91s
+benchmarks/ipc23-learning/satellite/testing/easy/p20.pddl: Problem could not be solved, planner time 1199.46s
+benchmarks/ipc23-learning/satellite/testing/easy/p11.pddl: Problem could not be solved, planner time 1199.41s
+p05.pddl: Solution found, planner time 0.21s
+benchmarks/ipc23-learning/satellite/testing/easy/p28.pddl: Problem could not be solved, planner time 1199.72s
+benchmarks/ipc23-learning/satellite/testing/easy/p19.pddl: Problem could not be solved, planner time 1199.43s
+benchmarks/ipc23-learning/satellite/testing/easy/p30.pddl: Problem could not be solved, planner time 1199.74s
+p01.pddl: Solution found, planner time 0.10s

@@ -1,0 +1,30 @@
+p04.pddl: Solution found, planner time 0.13s
+benchmarks/ipc23-learning/transport/testing/easy/p18.pddl: Problem could not be solved, planner time 1199.75s
+benchmarks/ipc23-learning/transport/testing/easy/p29.pddl: Problem could not be solved, planner time 1200.09s
+benchmarks/ipc23-learning/transport/testing/easy/p25.pddl: Problem could not be solved, planner time 1199.96s
+benchmarks/ipc23-learning/transport/testing/easy/p14.pddl: Problem could not be solved, planner time 1199.65s
+p08.pddl: Solution found, planner time 1.84s
+benchmarks/ipc23-learning/transport/testing/easy/p10.pddl: Problem could not be solved, planner time 1199.43s
+benchmarks/ipc23-learning/transport/testing/easy/p21.pddl: Problem could not be solved, planner time 1199.66s
+benchmarks/ipc23-learning/transport/testing/easy/p24.pddl: Problem could not be solved, planner time 1199.92s
+benchmarks/ipc23-learning/transport/testing/easy/p15.pddl: Problem could not be solved, planner time 1199.59s
+p09.pddl: Solution found, planner time 323.44s
+benchmarks/ipc23-learning/transport/testing/easy/p11.pddl: Problem could not be solved, planner time 1199.71s
+benchmarks/ipc23-learning/transport/testing/easy/p20.pddl: Problem could not be solved, planner time 1199.79s
+p05.pddl: Solution found, planner time 0.33s
+benchmarks/ipc23-learning/transport/testing/easy/p19.pddl: Problem could not be solved, planner time 1199.78s
+benchmarks/ipc23-learning/transport/testing/easy/p28.pddl: Problem could not be solved, planner time 1199.99s
+p01.pddl: Solution found, planner time 0.16s
+benchmarks/ipc23-learning/transport/testing/easy/p30.pddl: Problem could not be solved, planner time 1200.00s
+benchmarks/ipc23-learning/transport/testing/easy/p26.pddl: Problem could not be solved, planner time 1200.03s
+benchmarks/ipc23-learning/transport/testing/easy/p17.pddl: Problem could not be solved, planner time 1199.81s
+benchmarks/ipc23-learning/transport/testing/easy/p13.pddl: Problem could not be solved, planner time 1199.59s
+benchmarks/ipc23-learning/transport/testing/easy/p22.pddl: Problem could not be solved, planner time 1199.75s
+p07.pddl: Solution found, planner time 3.61s
+p03.pddl: Solution found, planner time 0.12s
+p06.pddl: Solution found, planner time 0.20s
+p02.pddl: Solution found, planner time 0.09s
+benchmarks/ipc23-learning/transport/testing/easy/p27.pddl: Problem could not be solved, planner time 1200.07s
+benchmarks/ipc23-learning/transport/testing/easy/p16.pddl: Problem could not be solved, planner time 1199.72s
+benchmarks/ipc23-learning/transport/testing/easy/p12.pddl: Problem could not be solved, planner time 1199.50s
+benchmarks/ipc23-learning/transport/testing/easy/p23.pddl: Problem could not be solved, planner time 1199.93s

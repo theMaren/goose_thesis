@@ -1,0 +1,30 @@
+p07.pddl: Solution found, planner time 340.05s
+p03.pddl: Solution found, planner time 0.20s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p17.pddl: Problem could not be solved, planner time 1200.68s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p26.pddl: Problem could not be solved, planner time 1200.81s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p22.pddl: Problem could not be solved, planner time 1200.69s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p13.pddl: Problem could not be solved, planner time 1200.51s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p16.pddl: Problem could not be solved, planner time 1200.62s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p27.pddl: Problem could not be solved, planner time 1200.83s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p23.pddl: Problem could not be solved, planner time 1200.79s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p12.pddl: Problem could not be solved, planner time 1200.49s
+p06.pddl: Solution found, planner time 18.98s
+p02.pddl: Solution found, planner time 0.19s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p14.pddl: Problem could not be solved, planner time 1200.54s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p25.pddl: Problem could not be solved, planner time 1200.50s
+p08.pddl: Solution found, planner time 316.70s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p21.pddl: Problem could not be solved, planner time 1200.68s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p10.pddl: Problem could not be solved, planner time 1200.33s
+p04.pddl: Solution found, planner time 0.36s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p29.pddl: Problem could not be solved, planner time 1200.93s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p18.pddl: Problem could not be solved, planner time 1200.66s
+p05.pddl: Solution found, planner time 1.50s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p28.pddl: Problem could not be solved, planner time 1200.95s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p19.pddl: Problem could not be solved, planner time 1200.71s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p30.pddl: Problem could not be solved, planner time 1200.99s
+p01.pddl: Solution found, planner time 0.20s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p15.pddl: Problem could not be solved, planner time 1200.64s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p24.pddl: Problem could not be solved, planner time 1200.81s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p09.pddl: Problem could not be solved, planner time 1200.10s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p20.pddl: Problem could not be solved, planner time 1200.69s
+benchmarks/ipc23-learning/blocksworld/testing/easy/p11.pddl: Problem could not be solved, planner time 1200.48s

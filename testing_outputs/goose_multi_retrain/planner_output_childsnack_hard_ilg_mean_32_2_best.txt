@@ -1,0 +1,30 @@
+p03.pddl: Problem could not be solved. Steps until abortion 1, highest h 0, planner time 1199.45s
+p07.pddl: Problem could not be solved. Steps until abortion 1, highest h 0, planner time 1200.12s
+p22.pddl: Unknown outcome.
+p13.pddl: Unknown outcome.
+p17.pddl: Unknown outcome.
+p26.pddl: Unknown outcome.
+p23.pddl: Unknown outcome.
+p12.pddl: Problem could not be solved. Steps until abortion 1, highest h 0, planner time 1199.36s
+p16.pddl: Unknown outcome.
+p27.pddl: Unknown outcome.
+p02.pddl: Problem could not be solved. Steps until abortion 1, highest h 0, planner time 1200.11s
+p06.pddl: Problem could not be solved. Steps until abortion 1, highest h 0, planner time 1199.41s
+p21.pddl: Unknown outcome.
+p10.pddl: Problem could not be solved. Steps until abortion 1, highest h 0, planner time 1199.88s
+p08.pddl: Problem could not be solved. Steps until abortion 1, highest h 0, planner time 1200.16s
+p14.pddl: Unknown outcome.
+p25.pddl: Unknown outcome.
+p29.pddl: Unknown outcome.
+p18.pddl: Unknown outcome.
+p04.pddl: Problem could not be solved. Steps until abortion 1, highest h 0, planner time 1199.92s
+p30.pddl: Unknown outcome.
+p01.pddl: Problem could not be solved. Steps until abortion 1, highest h 0, planner time 1199.66s
+p28.pddl: Unknown outcome.
+p19.pddl: Unknown outcome.
+p05.pddl: Problem could not be solved. Steps until abortion 1, highest h 0, planner time 1199.31s
+p20.pddl: Unknown outcome.
+p11.pddl: Problem could not be solved. Steps until abortion 1, highest h 0, planner time 1199.56s
+p09.pddl: Problem could not be solved. Steps until abortion 1, highest h 0, planner time 1199.47s
+p15.pddl: Unknown outcome.
+p24.pddl: Unknown outcome.

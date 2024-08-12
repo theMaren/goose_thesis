@@ -1,0 +1,30 @@
+p15.pddl: Solution found with plan length 296, expanded 450, evaluated 13045, generated 13492, highest h 0, planner time 105.26s
+p24.pddl: Solution found with plan length 422, expanded 1009, evaluated 39796, generated 40818, highest h 0, planner time 326.01s
+p09.pddl: Solution found with plan length 238, expanded 608, evaluated 13793, generated 14405, highest h 0, planner time 92.25s
+p20.pddl: Solution found with plan length 380, expanded 759, evaluated 27355, generated 28246, highest h 0, planner time 219.75s
+p11.pddl: Solution found with plan length 238, expanded 405, evaluated 10559, generated 10962, highest h 0, planner time 77.15s
+p05.pddl: Solution found with plan length 172, expanded 245, evaluated 4281, generated 4524, highest h 0, planner time 34.83s
+p28.pddl: Solution found with plan length 464, expanded 1411, evaluated 64523, generated 65967, highest h 0, planner time 551.94s
+p19.pddl: Problem could not be solved. Steps until abortion 218, highest h 0, planner time 1199.39s
+p30.pddl: Problem could not be solved. Steps until abortion 260, highest h 0, planner time 1199.25s
+p01.pddl: Solution found with plan length 120, expanded 185, evaluated 2594, generated 2776, highest h 0, planner time 24.93s
+p04.pddl: Solution found with plan length 198, expanded 493, evaluated 9342, generated 9864, highest h 0, planner time 62.59s
+p29.pddl: Solution found with plan length 524, expanded 1405, evaluated 65002, generated 66438, highest h 0, planner time 561.78s
+p18.pddl: Solution found with plan length 360, expanded 1419, evaluated 52372, generated 53967, highest h 0, planner time 399.58s
+p14.pddl: Solution found with plan length 280, expanded 581, evaluated 16582, generated 17238, highest h 0, planner time 129.11s
+p25.pddl: Solution found with plan length 462, expanded 1479, evaluated 63552, generated 65090, highest h 0, planner time 523.31s
+p08.pddl: Solution found with plan length 210, expanded 455, evaluated 10583, generated 11039, highest h 0, planner time 73.23s
+p21.pddl: Solution found with plan length 402, expanded 1518, evaluated 64361, generated 66191, highest h 0, planner time 508.52s
+p10.pddl: Solution found with plan length 222, expanded 343, evaluated 6899, generated 7239, highest h 0, planner time 54.78s
+p06.pddl: Solution found with plan length 170, expanded 236, evaluated 3697, generated 3932, highest h 0, planner time 31.27s
+p02.pddl: Solution found with plan length 134, expanded 379, evaluated 5419, generated 5830, highest h 0, planner time 39.42s
+p16.pddl: Solution found with plan length 346, expanded 1083, evaluated 30096, generated 31214, highest h 0, planner time 225.84s
+p27.pddl: Solution found with plan length 542, expanded 2932, evaluated 143242, generated 146320, highest h 0, planner time 1195.84s
+p23.pddl: Solution found with plan length 482, expanded 1906, evaluated 83974, generated 85972, highest h 0, planner time 682.38s
+p12.pddl: Solution found with plan length 294, expanded 832, evaluated 24669, generated 25512, highest h 0, planner time 167.59s
+p17.pddl: Solution found with plan length 402, expanded 2243, evaluated 72652, generated 75170, highest h 0, planner time 547.19s
+p26.pddl: Solution found with plan length 528, expanded 2122, evaluated 94231, generated 96425, highest h 0, planner time 777.27s
+p22.pddl: Solution found with plan length 462, expanded 2277, evaluated 91101, generated 93704, highest h 0, planner time 723.17s
+p13.pddl: Solution found with plan length 326, expanded 1145, evaluated 35483, generated 36730, highest h 0, planner time 240.03s
+p07.pddl: Solution found with plan length 204, expanded 320, evaluated 5584, generated 5901, highest h 0, planner time 43.72s
+p03.pddl: Solution found with plan length 156, expanded 400, evaluated 5235, generated 5669, highest h 0, planner time 37.98s
