@@ -1,6 +1,5 @@
 *.pyc
 *.sif
-*.model
 *.zip
 *.graph
 *.json
@@ -13,7 +12,7 @@ plan/
 plans/
 venv/
 logs/
-trained_models/
+trained_models/goose_wl_gpr/
 _*/
 icaps24_gnn_logs_and_models/
 icaps24_wl_logs_and_models/

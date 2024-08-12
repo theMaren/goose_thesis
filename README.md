@@ -1,6 +1,6 @@
 # <span style="font-weight:normal"> Enhanced **GOOSE**: **G**raphs **O**ptimised f**O**r **S**earch **E**valuation</span>
 
-This repository hosts the code for the Master Thesis titled **"Graph Neural Networks for Learning Domain-Dependent Heuristics in Automated Planning: Enhancing the GOOSE Framework."** This work was conducted at the University of Padova as part of the Erasmus Mundus Master Program in Big Data Management and Analytics.
+This repository includes the code for the Master Thesis titled **"Graph Neural Networks for Learning Domain-Dependent Heuristics in Automated Planning: Enhancing the GOOSE Framework."** This work was conducted at the University of Padova as part of the Erasmus Mundus Master Program in Big Data Management and Analytics.
 
 Given that the thesis focuses on enhancing the GOOSE framework, a significant portion of the code is derived from the original GOOSE framework. You can find the original GOOSE framework [here](https://github.com/DillonZChen/goose).
 
