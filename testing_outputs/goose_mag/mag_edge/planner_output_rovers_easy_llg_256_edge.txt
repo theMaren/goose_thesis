@@ -1,0 +1,30 @@
+p05.pddl: Solution found with plan length 6, expanded 102, evaluated 145, generated 655, highest h 0, planner time 28.97s
+p19.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 600.01s
+p28.pddl: Unknown outcome.
+p01.pddl: Solution found with plan length 9, expanded 385, evaluated 481, generated 1573, highest h 0, planner time 49.10s
+p30.pddl: Unknown outcome.
+p24.pddl: Unknown outcome.
+p15.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 600.60s
+p09.pddl: Solution found with plan length 6, expanded 120, evaluated 151, generated 1194, highest h 0, planner time 35.05s
+p11.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 599.69s
+p20.pddl: Unknown outcome.
+p25.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 600.73s
+p14.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 603.70s
+p08.pddl: Solution found with plan length 19, expanded 4603, evaluated 4714, generated 27038, highest h 0, planner time 367.39s
+p10.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 608.05s
+p21.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 605.10s
+p04.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 603.42s
+p18.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 603.84s
+p29.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 604.28s
+p27.pddl: Unknown outcome.
+p16.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 599.77s
+p12.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 603.95s
+p23.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 604.09s
+p06.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 603.02s
+p02.pddl: Solution found with plan length 16, expanded 6165, evaluated 6717, generated 38345, highest h 0, planner time 572.74s
+p07.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 603.52s
+p03.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 603.26s
+p26.pddl: Unknown outcome.
+p17.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 600.18s
+p13.pddl: Problem could not be solved. Steps until abortion 0, highest h 0, planner time 603.43s
+p22.pddl: Unknown outcome.

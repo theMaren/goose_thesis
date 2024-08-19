@@ -1,0 +1,1 @@
+p03.pddl: Solution found with plan length 5, expanded 25, evaluated 48, generated 77, highest h 0, planner time 7.66s

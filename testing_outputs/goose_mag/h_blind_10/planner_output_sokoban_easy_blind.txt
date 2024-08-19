@@ -1,0 +1,30 @@
+p17.pddl: Solution found, planner time 7.04s
+p26.pddl: Problem could not be solved, planner time 599.79s
+p22.pddl: Solution found, planner time 0.43s
+p13.pddl: Solution found, planner time 0.30s
+p07.pddl: Solution found, planner time 0.19s
+p03.pddl: Solution found, planner time 0.19s
+p06.pddl: Solution found, planner time 0.18s
+p02.pddl: Solution found, planner time 0.18s
+p16.pddl: Solution found, planner time 1.44s
+p27.pddl: Problem could not be solved, planner time 599.77s
+p23.pddl: Solution found, planner time 0.82s
+p12.pddl: Solution found, planner time 0.28s
+p04.pddl: Solution found, planner time 0.19s
+p29.pddl: Problem could not be solved, planner time 599.82s
+p18.pddl: Solution found, planner time 0.80s
+p14.pddl: Solution found, planner time 0.22s
+p25.pddl: Solution found, planner time 472.67s
+p08.pddl: Solution found, planner time 0.25s
+p21.pddl: Solution found, planner time 0.40s
+p10.pddl: Solution found, planner time 0.22s
+p15.pddl: Solution found, planner time 0.21s
+p24.pddl: Solution found, planner time 134.18s
+p09.pddl: Solution found, planner time 0.26s
+p20.pddl: Solution found, planner time 16.44s
+p11.pddl: Solution found, planner time 0.20s
+p05.pddl: Solution found, planner time 0.19s
+p28.pddl: Solution found, planner time 14.88s
+p19.pddl: Solution found, planner time 3.81s
+p30.pddl: Solution found, planner time 179.04s
+p01.pddl: Solution found, planner time 0.23s
